@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+<html>
+<head>
+    <title>redacted/index.html</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Hello.</h1>
+        <button id="muteBtn" aria-label="Toggle music">music :3</button>
+        <audio id="bgm" loop autoplay>
+            <source src="bg.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <div id="terminal"></div>
+    <div id="source-content" style="display: none;">
+        <section id="userinfo" class="source-section">
+
+            <p>
+                I am an aspiring software/game developer making slow but steady progress towards my desired outcome. Despite my passion for development, I struggle with a plethora of setbacks,
+                ranging from depression, PTSD, holes in my lungs that just appear sometimes, among many other things. It's not easy, but I try my best.
+            </p>
+
+            <p>
+                I don't let any sort of boundary define who I am, meaning I go by any pronouns and I tend to fluctuate how I sound, how I dress, etc.
+                Most days I come off as generally androgynous, since that seems to be the easiest configuration.
+            </p>
+
+            <p>
+                Aside from my unobtainable goals, I also enjoy spending my time doing other things, such as playing games with my friends, tinkering with old technology,
+                going outside when the weather isn't the 9th circle of hell, and hugging my girlfriend.
+            </p>
+
+            <p>Warmth is one of the few things worth living for.</p>
+
+        </section>
+
+        <section id="skillset" class="source-section">
+            <h3>Primary Skillset:</h3>
+            <p>Unity Engine (including level design, C# and APIs)</p>
+            <p>Blender (including modeling, animation, texturing, rendering)</p>
+            <p>Sound design</p>
+            <p>Story writing</p>
+            <h3>Secondary Skillset:</h3>
+            <p>FL Studio</p>
+            <p>Photography</p>
+            <p>Front-end web development</p>
+            <p>General advice consulting and handling typical bullshit</p>
+            <p>Joke ideas that turn into accidentally good ideas</p>
+        </section>
+
+        <section id="injections" class="source-section">
+            <p>Depressive jaded edginess aside, I guess I have to provide an update. The aforementioned drawbacks I suffer from are all still true, but as of lately, I've found a way to quell them.</p>
+            <p>Turns out, being on sublingual estradiol for nearly 2 years absolutely fucks up your psyche. The peaks and crashes, along with the <a href="https://en.wikipedia.org/wiki/Estrone">Estrone (E1)</a> clogging up your system, makes it really fucking hard to think or do anything.</p>
+            <p>If you yourself are on sublingual or oral estradiol, please, PLEASE fucking swap. I'm writing this update barely on day 3 and I already feel so much fucking better. It's incredible.</p>
+            <p>The impact of unstable levels is severely understated, and as much as some people found the half-trans edgy persona endearing, I'm realizing I'm much happier on stable hormones.</p>
+            <p>Hopefully with this given I should be able to work a lot harder, and be a lot happier. When your brain isn't constantly in crisis mode from the hormonal rollercoaster is becomes so much easier to do ANYTHING.</p>
+            <p>Current Dose: 4 mg <a href="https://en.wikipedia.org/wiki/Estradiol_enantate">EEn</a>, every 7 days, provided by the lovely individuals at <a href="https://opengatelabs.com/">OpenGateLabs</a> &lt;3</p>
+        </section>
+
+        <section id="closure" class="source-section">
+            <p>If you have a problem with me, just remember I'm trying to be the best person I can be today. If that isn't enough, wait another 10 to 60 years and you'll get what you want. Entropy is unavoidable.</p>
+            <p>Memento mori, cogito ergo sum, and remember, we are what we create. Everything else shall be forgotten. Pick up a paintbrush, type some code, do something.</p>
+            <p>Verify your existence.</p>
+        </section>
+
+    </div>
+
+    <div id="controls">
+        <button class="control-button" data-section="userinfo">userinfo</button>
+        <button class="control-button" data-section="skillset">skillset</button>
+        <button class="control-button" data-section="injections">injections</button>
+        <button class="control-button" data-section="closure">closure</button>
+    </div>
+
+    <script src="dialog.js"></script>
+    <script src="music.js"></script>
+</body>
+</html>
+
